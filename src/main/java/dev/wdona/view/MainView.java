@@ -1,5 +1,8 @@
 package dev.wdona.view;
 
+import dev.wdona.model.Libro;
+
+import java.util.List;
 import java.util.Scanner;
 
 public class MainView {
@@ -31,5 +34,25 @@ public class MainView {
         Thread.sleep(2000);
 
         System.out.println("Terminado");
+    }
+    
+    public void mostrarLibros(List<Libro> libros) {
+        for (Libro libro : libros) {
+            System.out.println(libro.toString());
+        }
+    }
+    
+    public String pedirString(String mensaje) {
+        System.out.print(mensaje);
+        return scanner.nextLine();
+    }
+    
+    public int pedirInt(String mensaje) {
+        System.out.print(mensaje);
+        return scanner.nextInt();
+    }
+    
+    public void mostrarMsg(String mensaje) {
+        System.out.println(mensaje);
     }
 }
