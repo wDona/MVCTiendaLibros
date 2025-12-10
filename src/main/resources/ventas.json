@@ -1,0 +1,42 @@
+{
+  "venta": [
+    {
+      "idVenta": "V001",
+      "fecha": "2025-10-21",
+      "libros": [
+        {
+          "id": "L003",
+          "titulo": "1984",
+          "autor": "George Orwell",
+          "editorial": "Debolsillo",
+          "precioUnitario": 12.95,
+          "cantidadVendida": 2
+        },
+        {
+          "id": "L004",
+          "titulo": "Animal Farm",
+          "autor": "George Orwell",
+          "editorial": "Debolsillo",
+          "precioUnitario": 10.50,
+          "cantidadVendida": 1
+        }
+      ],
+      "estado": "completada"
+    },
+    {
+      "idVenta": "V002",
+      "fecha": "2025-10-21",
+      "libros": [
+        {
+          "id": "L005",
+          "titulo": "Cien años de soledad",
+          "autor": "Gabriel García Márquez",
+          "editorial": "Sudamericana",
+          "precioUnitario": 15.00,
+          "cantidadVendida": 1
+        }
+      ],
+      "estado": "completada"
+    }
+  ]
+}
