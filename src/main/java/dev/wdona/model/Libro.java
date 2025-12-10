@@ -32,6 +32,10 @@ public class Libro {
         this.stock = stock;
     }
 
+    public Libro() {
+        
+    }
+
     public String getIsbn() {
         return isbn;
     }

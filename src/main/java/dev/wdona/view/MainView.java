@@ -14,8 +14,7 @@ public class MainView {
                 1) Insertar libro
                 2) Buscar por ISBN
                 3) Borrar libro
-                4) Crear libro
-                5) Editar libro
+                4) Editar libro
                 
                 0) Salir
                 """);

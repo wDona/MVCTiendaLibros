@@ -13,7 +13,7 @@ public class JPAUtils {
         emf.close();
     }
 
-    // Las crea en el SQLite
+    // Las crea en el SQLite si no existen
     public static void crearTablas() {
         EntityManager em = getEntityManager();
         em.getTransaction().begin();

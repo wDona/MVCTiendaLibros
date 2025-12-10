@@ -4,7 +4,7 @@ public class RowCSV {
     private String isbn;
     private String unidades;
 
-    RowCSV(String isbn, String unidades) {
+    public RowCSV(String isbn, String unidades) {
         this.isbn = isbn;
         this.unidades = unidades;
     }
